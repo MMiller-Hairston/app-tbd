@@ -16,9 +16,6 @@
 		7AF0D5842AA6D37A0085AAC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0D5832AA6D37A0085AAC8 /* ContentView.swift */; };
 		7AF0D5862AA6D37B0085AAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D5852AA6D37B0085AAC8 /* Assets.xcassets */; };
 		7AF0D5892AA6D37B0085AAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AF0D5882AA6D37B0085AAC8 /* Preview Assets.xcassets */; };
-		7AF0D5932AA6D37B0085AAC8 /* project_chef_ggTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0D5922AA6D37B0085AAC8 /* project_chef_ggTests.swift */; };
-		7AF0D59D2AA6D37B0085AAC8 /* project_chef_ggUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0D59C2AA6D37B0085AAC8 /* project_chef_ggUITests.swift */; };
-		7AF0D59F2AA6D37B0085AAC8 /* project_chef_ggUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0D59E2AA6D37B0085AAC8 /* project_chef_ggUITestsLaunchTests.swift */; };
 		7AF0D5AF2AA6D79D0085AAC8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7AF0D5AE2AA6D79D0085AAC8 /* FirebaseAnalytics */; };
 		7AF0D5B12AA6D79D0085AAC8 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7AF0D5B02AA6D79D0085AAC8 /* FirebaseAnalyticsSwift */; };
 		7AF0D5B32AA6D79D0085AAC8 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 7AF0D5B22AA6D79D0085AAC8 /* FirebaseAppCheck */; };
@@ -36,23 +33,6 @@
 		7AF0D5CC2AA6DF660085AAC8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0D5CB2AA6DF660085AAC8 /* SignInView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7AF0D58F2AA6D37B0085AAC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7AF0D5762AA6D37A0085AAC8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AF0D57D2AA6D37A0085AAC8;
-			remoteInfo = "project-chef-gg";
-		};
-		7AF0D5992AA6D37B0085AAC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7AF0D5762AA6D37A0085AAC8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7AF0D57D2AA6D37A0085AAC8;
-			remoteInfo = "project-chef-gg";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7AE16F0D2AA92CFB0060B410 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7AE16F0F2AA92ED30060B410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -63,11 +43,6 @@
 		7AF0D5832AA6D37A0085AAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AF0D5852AA6D37B0085AAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AF0D5882AA6D37B0085AAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7AF0D58E2AA6D37B0085AAC8 /* project-chef-ggTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-chef-ggTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AF0D5922AA6D37B0085AAC8 /* project_chef_ggTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_chef_ggTests.swift; sourceTree = "<group>"; };
-		7AF0D5982AA6D37B0085AAC8 /* project-chef-ggUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "project-chef-ggUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AF0D59C2AA6D37B0085AAC8 /* project_chef_ggUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_chef_ggUITests.swift; sourceTree = "<group>"; };
-		7AF0D59E2AA6D37B0085AAC8 /* project_chef_ggUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project_chef_ggUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7AF0D5CB2AA6DF660085AAC8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,20 +70,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AF0D58B2AA6D37B0085AAC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AF0D5952AA6D37B0085AAC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -132,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				7AF0D5802AA6D37A0085AAC8 /* project-chef-gg */,
-				7AF0D5912AA6D37B0085AAC8 /* project-chef-ggTests */,
-				7AF0D59B2AA6D37B0085AAC8 /* project-chef-ggUITests */,
 				7AF0D57F2AA6D37A0085AAC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,8 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				7AF0D57E2AA6D37A0085AAC8 /* project-chef-gg.app */,
-				7AF0D58E2AA6D37B0085AAC8 /* project-chef-ggTests.xctest */,
-				7AF0D5982AA6D37B0085AAC8 /* project-chef-ggUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,23 +126,6 @@
 				7AF0D5882AA6D37B0085AAC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7AF0D5912AA6D37B0085AAC8 /* project-chef-ggTests */ = {
-			isa = PBXGroup;
-			children = (
-				7AF0D5922AA6D37B0085AAC8 /* project_chef_ggTests.swift */,
-			);
-			path = "project-chef-ggTests";
-			sourceTree = "<group>";
-		};
-		7AF0D59B2AA6D37B0085AAC8 /* project-chef-ggUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7AF0D59C2AA6D37B0085AAC8 /* project_chef_ggUITests.swift */,
-				7AF0D59E2AA6D37B0085AAC8 /* project_chef_ggUITestsLaunchTests.swift */,
-			);
-			path = "project-chef-ggUITests";
 			sourceTree = "<group>";
 		};
 		7AF0D5CA2AA6DEAB0085AAC8 /* Views */ = {
@@ -235,42 +175,6 @@
 			productReference = 7AF0D57E2AA6D37A0085AAC8 /* project-chef-gg.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7AF0D58D2AA6D37B0085AAC8 /* project-chef-ggTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AF0D5A52AA6D37B0085AAC8 /* Build configuration list for PBXNativeTarget "project-chef-ggTests" */;
-			buildPhases = (
-				7AF0D58A2AA6D37B0085AAC8 /* Sources */,
-				7AF0D58B2AA6D37B0085AAC8 /* Frameworks */,
-				7AF0D58C2AA6D37B0085AAC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7AF0D5902AA6D37B0085AAC8 /* PBXTargetDependency */,
-			);
-			name = "project-chef-ggTests";
-			productName = "project-chef-ggTests";
-			productReference = 7AF0D58E2AA6D37B0085AAC8 /* project-chef-ggTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7AF0D5972AA6D37B0085AAC8 /* project-chef-ggUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7AF0D5A82AA6D37B0085AAC8 /* Build configuration list for PBXNativeTarget "project-chef-ggUITests" */;
-			buildPhases = (
-				7AF0D5942AA6D37B0085AAC8 /* Sources */,
-				7AF0D5952AA6D37B0085AAC8 /* Frameworks */,
-				7AF0D5962AA6D37B0085AAC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7AF0D59A2AA6D37B0085AAC8 /* PBXTargetDependency */,
-			);
-			name = "project-chef-ggUITests";
-			productName = "project-chef-ggUITests";
-			productReference = 7AF0D5982AA6D37B0085AAC8 /* project-chef-ggUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -283,14 +187,6 @@
 				TargetAttributes = {
 					7AF0D57D2AA6D37A0085AAC8 = {
 						CreatedOnToolsVersion = 14.3.1;
-					};
-					7AF0D58D2AA6D37B0085AAC8 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 7AF0D57D2AA6D37A0085AAC8;
-					};
-					7AF0D5972AA6D37B0085AAC8 = {
-						CreatedOnToolsVersion = 14.3.1;
-						TestTargetID = 7AF0D57D2AA6D37A0085AAC8;
 					};
 				};
 			};
@@ -312,8 +208,6 @@
 			projectRoot = "";
 			targets = (
 				7AF0D57D2AA6D37A0085AAC8 /* project-chef-gg */,
-				7AF0D58D2AA6D37B0085AAC8 /* project-chef-ggTests */,
-				7AF0D5972AA6D37B0085AAC8 /* project-chef-ggUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -326,20 +220,6 @@
 				7AF0D5892AA6D37B0085AAC8 /* Preview Assets.xcassets in Resources */,
 				7AE16F0E2AA92CFB0060B410 /* GoogleService-Info.plist in Resources */,
 				7AF0D5862AA6D37B0085AAC8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AF0D58C2AA6D37B0085AAC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AF0D5962AA6D37B0085AAC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,37 +238,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AF0D58A2AA6D37B0085AAC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AF0D5932AA6D37B0085AAC8 /* project_chef_ggTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AF0D5942AA6D37B0085AAC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7AF0D59F2AA6D37B0085AAC8 /* project_chef_ggUITestsLaunchTests.swift in Sources */,
-				7AF0D59D2AA6D37B0085AAC8 /* project_chef_ggUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7AF0D5902AA6D37B0085AAC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AF0D57D2AA6D37A0085AAC8 /* project-chef-gg */;
-			targetProxy = 7AF0D58F2AA6D37B0085AAC8 /* PBXContainerItemProxy */;
-		};
-		7AF0D59A2AA6D37B0085AAC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7AF0D57D2AA6D37A0085AAC8 /* project-chef-gg */;
-			targetProxy = 7AF0D5992AA6D37B0085AAC8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7AF0D5A02AA6D37B0085AAC8 /* Debug */ = {
@@ -571,82 +421,6 @@
 			};
 			name = Release;
 		};
-		7AF0D5A62AA6D37B0085AAC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4X47TFL35;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ggamecast.project-chef-ggTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-chef-gg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-chef-gg";
-			};
-			name = Debug;
-		};
-		7AF0D5A72AA6D37B0085AAC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4X47TFL35;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ggamecast.project-chef-ggTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/project-chef-gg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/project-chef-gg";
-			};
-			name = Release;
-		};
-		7AF0D5A92AA6D37B0085AAC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4X47TFL35;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ggamecast.project-chef-ggUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "project-chef-gg";
-			};
-			name = Debug;
-		};
-		7AF0D5AA2AA6D37B0085AAC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P4X47TFL35;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ggamecast.project-chef-ggUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "project-chef-gg";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -664,24 +438,6 @@
 			buildConfigurations = (
 				7AF0D5A32AA6D37B0085AAC8 /* Debug */,
 				7AF0D5A42AA6D37B0085AAC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AF0D5A52AA6D37B0085AAC8 /* Build configuration list for PBXNativeTarget "project-chef-ggTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AF0D5A62AA6D37B0085AAC8 /* Debug */,
-				7AF0D5A72AA6D37B0085AAC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7AF0D5A82AA6D37B0085AAC8 /* Build configuration list for PBXNativeTarget "project-chef-ggUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7AF0D5A92AA6D37B0085AAC8 /* Debug */,
-				7AF0D5AA2AA6D37B0085AAC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
