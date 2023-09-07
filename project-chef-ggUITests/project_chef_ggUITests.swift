@@ -1,10 +1,3 @@
-//
-//  project_chef_ggUITests.swift
-//  project-chef-ggUITests
-//
-//  Created by Michael Miller on 9/4/23.
-//
-
 import XCTest
 
 final class project_chef_ggUITests: XCTestCase {

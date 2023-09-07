@@ -1,17 +1,22 @@
-//
-//  project_chef_ggApp.swift
-//  project-chef-gg
-//
-//  Created by Michael Miller on 9/4/23.
-//
-
 import SwiftUI
+import Firebase
+import FirebaseCore
+import FirebaseAuthCombineSwift
+import GoogleSignIn
 
 @main
 struct project_chef_ggApp: App {
+    @EnvironmentObject var firebaseViewModel: FirebaseAuthViewModel
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().onOpenURL{ url in
+                GIDSignIn.sharedInstance.handle(url)
+            }.environmentObject(FirebaseAuthViewModel())
         }
     }
 }

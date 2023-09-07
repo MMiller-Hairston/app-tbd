@@ -1,10 +1,3 @@
-//
-//  project_chef_ggTests.swift
-//  project-chef-ggTests
-//
-//  Created by Michael Miller on 9/4/23.
-//
-
 import XCTest
 @testable import project_chef_gg
 
